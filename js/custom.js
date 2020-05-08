@@ -86,3 +86,9 @@ $(window).on('load', function () {
         $('body').addClass('loaded');
     });
 });
+
+
+//Script For Audio
+setTimeout(function(){
+    document.getElementById('m-audio').play();
+},1000);
