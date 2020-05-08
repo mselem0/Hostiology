@@ -1,0 +1,26 @@
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav > li > a {padding-top: 10px; padding-bottom: 10px;}
+    .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus {transform: scale(1)}
+    .subscribe .form-control {width: 100%; margin-bottom: 10px;}
+    .subscribe .btn {margin-left: 0; width: 100%}
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {max-height: none}
+    .our-team .person img {width: 120px; height: 120px}
+    .our-team .person p {width: 60%; margin: auto;}
+    .features .feat .glyphicon {width: 70px; height: 70px; line-height: 70px; font-size: 2.5em;}
+    .footer {text-align: center;}
+    .media a {margin-left: 150px}
+    .media-body {width: 300px}
+}
+@media (max-width: 610px) {.media a {margin-left: 80px}}
+@media (min-width: 767px) and (max-width: 991px) {
+    .footer {text-align: center;}
+    .media {margin-left: 150px}
+    .media-body {width: 300px}
+}
+@media (min-width: 767px) { .custom-heading {font-size: 3em} }
+@media (min-width: 992px) {
+    .lead {font-size: 18px; line-height: 1.8}
+    #carousel-testemonials-generic .carousel-inner .item .content {width: 62%; margin: 40px auto}
+    .footer .social {width: 86%}
+}
