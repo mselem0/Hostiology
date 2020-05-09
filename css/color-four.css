@@ -10,6 +10,8 @@
 .scroll-top .fa-fighter-jet {color: #f3c623}
 
 .navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus ,
 .features .feat .feat-icon ,

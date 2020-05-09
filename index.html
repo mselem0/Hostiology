@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>Learn Bootsrtap[ 3 ]</title>
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/rtl.css">
     <link rel="stylesheet" href="css/col-offset-right.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Open+Sans&family=Roboto&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/hover-min.css">
     <link rel="stylesheet" href="css/Main.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/color-one.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Open+Sans&family=Roboto&family=Slabo+27px&display=swap" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!-- [if lt IE 9]>
@@ -55,10 +56,7 @@
             </ul>
         </div>
         <div class="caurosel-option">
-            <h4>Disable <span>Caurosel</span></h4>
-            <div class="check hide-icon">
-                <i class="fas fa-check"></i>
-            </div>
+            <button type="button" class="btn btn-danger hvr-buzz btn-sm d-caurosel">Disable Caurosel</button>
         </div>
         <div class="gear">
             <i class="fas fa-cog"></i>
@@ -78,7 +76,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Hosti<span>ology.</span></a>
+                <a class="navbar-brand hvr-push" href="#">Hosti<span>ology.</span></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -124,8 +122,8 @@
                         <p class="lead hidden-xs">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iste blanditiis rerum nostrum beatae enim?
                         </p>
-                        <button type="button" class="btn btn-danger">Hire Us</button>
-                        <button type="button" class="btn btn-danger hidden-xs">More Info</button>
+                        <button type="button" class="btn btn-danger hvr-pop">Hire Us</button>
+                        <button type="button" class="btn btn-danger hidden-xs hvr-bounce-in">More Info</button>
                     </div>
                 </div>
             </div>
@@ -190,22 +188,22 @@
         <div class="container">
             <h2 class="h1 custom-heading"><span>Our</span> Features</h2>
             <div class="row">
-                <div class="feat col-md-3 col-sm-6">
+                <div class="feat col-md-3 col-sm-6 hvr-grow">
                     <i class="fas fa-heart feat-icon feat-icon"></i>
                     <h3>Lovely Design</h3>
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="feat col-md-3 col-sm-6">
+                <div class="feat col-md-3 col-sm-6 hvr-buzz">
                     <i class="fas fa-head-side-virus feat-icon"></i>
                     <h3>Creative Code</h3>
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="feat col-md-3 col-sm-6">
+                <div class="feat col-md-3 col-sm-6 hvr-float">
                     <i class="fas fa-tachometer-alt feat-icon"></i>
                     <h3>Speed Performance</h3>
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="feat col-md-3 col-sm-6">
+                <div class="feat col-md-3 col-sm-6 hvr-wobble-vertical">
                     <i class="fas fa-tablet feat-icon"></i>
                     <h3>All Responisve</h3>
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -233,7 +231,7 @@
                     <div class="item active">
                         <div class="content">
                             <div class="avatar">
-                                <img src="images/testemonials/avatar/avatar-1.svg" class="img-responsive" alt="avatar-1">
+                                <img src="images/testemonials/avatar/avatar-1.svg" width="76" height="76" class="img-responsive" alt="avatar-1">
                             </div>
                             <p class="lead">
                                 <span>&#8220;</span> 
@@ -246,7 +244,7 @@
                     <div class="item">
                         <div class="content">
                             <div class="avatar">
-                                <img src="images/testemonials/avatar/avatar-2.svg" class="img-responsive" alt="avatar-2">
+                                <img src="images/testemonials/avatar/avatar-2.svg" width="76" height="76" class="img-responsive" alt="avatar-2">
                             </div>
                             <p class="lead">
                                 <span>&#8220;</span> 
@@ -259,7 +257,7 @@
                     <div class="item">
                         <div class="content">
                             <div class="avatar">
-                                <img src="images/testemonials/avatar/avatar-3.svg" class="img-responsive" alt="avatar-3">
+                                <img src="images/testemonials/avatar/avatar-3.svg" width="76" height="76" class="img-responsive" alt="avatar-3">
                             </div>
                             <p class="lead">
                                 <span>&#8220;</span> 
@@ -272,7 +270,7 @@
                     <div class="item">
                         <div class="content">
                             <div class="avatar">
-                                <img src="images/testemonials/avatar/avatar-4.svg" class="img-responsive" alt="avatar-4">
+                                <img src="images/testemonials/avatar/avatar-4.svg" width="76" height="76" class="img-responsive" alt="avatar-4">
                             </div>
                             <p class="lead">
                                 <span>&#8220;</span> 
@@ -685,13 +683,6 @@
         <img src="images/122-1223559_flames-clipart-revival-transparent-background-fire-png.png" alt="fire">
     </div>
     <!-- Scroll To Top -->
-
-    <!-- Audio -->
-    <audio playsinline autoplay="" id="m-audio">
-        <source src="s.mp3" type="audio/mp3">
-            Error
-    </audio>
-    <!-- Audio -->
 
     <!--Start Scripts-->
     <script src="js/all.min.js"></script>

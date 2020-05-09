@@ -12,8 +12,7 @@ $(document).ready(function () {
     $('.font-option ul li').on('click', function () {
         $('body').css('font-family', $(this).css('font-family'));
     });
-    $('.option-box .caurosel-option .check').on('click', function () {
-        $(this).toggleClass('hide-icon');
+    $('.option-box .caurosel-option .d-caurosel').on('click', function () {
         $('#carousel-example-generic').toggle();
         $('.about').toggleClass('top-page');
     });
@@ -86,9 +85,3 @@ $(window).on('load', function () {
         $('body').addClass('loaded');
     });
 });
-
-
-//Script For Audio
-setTimeout(function(){
-    document.getElementById('m-audio').play();
-},1000);

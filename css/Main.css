@@ -194,26 +194,8 @@ body.loaded {overflow: auto}
 .option-box .font-option ul li.font-two {font-family: 'Roboto', sans-serif;}
 .option-box .font-option ul li.font-three {font-family: 'Lato', sans-serif;}
 .option-box .font-option ul li.font-four {font-family: 'Slabo 27px', sans-serif;}
-.option-box .caurosel-option .check {
-    width: 18px;
-    height: 16px;
-    margin: auto;
-    border: 2px solid #a2a2a2;
-    text-align: center;
-    cursor: pointer;
-    margin-bottom: 5px;
-    font-size: 26px;
-    position: relative;
-}
-.option-box .caurosel-option .check.hide-icon .fa-check {opacity: 0;}
-.option-box .caurosel-option .check .fa-check {
-    position: absolute;
-    top: -9px;
-    left: -6px;
-    display: block;
-    opacity: 1;
-    transition: .5s;
-}
+.d-caurosel {margin: 10px}
+.d-caurosel:focus {outline: none;}
 /* End Option Box */
 
 /*Start About Section*/
@@ -361,8 +343,6 @@ body.loaded {overflow: auto}
 .our-team .h1 {color: #eee; margin-bottom: 70px;}
 .our-team .person  {margin-bottom: 50px}
 .our-team .person img {
-    width: 180px;
-    height: 180px;
     -webkit-filter: saturate(0);
             filter: saturate(0);
     transition: 1s;
@@ -459,8 +439,6 @@ body.loaded {overflow: auto}
 /* Start Clients Section */
 .clients {background-color: #333; padding: 15px 0}
 .clients li img {
-    width: 126px;
-    height: 28px;
     -webkit-filter: grayscale(100);
             filter: grayscale(100);
     margin-top: 15px;
@@ -481,10 +459,8 @@ body.loaded {overflow: auto}
 .footer .sitemap li {margin: 4px 0}
 .footer .sitemap a {width: 25px; height: 25px;}
 .footer .social {width: 38%;  margin: auto; padding: 0}
-.footer .social li {float: left; margin-right: 15px; margin-bottom: 15px;}
 .footer .social a {width: 35px; height: 35px;}
-.footer .media a {width: 90px; height: 70px;}
-.footer .works a {width: 155px; height: 120px}
+.footer .social li {float: left; margin-right: 15px; margin-bottom: 15px;}
 .footer .works a img {margin: 0 10px 20px; padding: 2px}
 .footer .copy {
     background-color: #333;
