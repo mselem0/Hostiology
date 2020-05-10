@@ -1,5 +1,5 @@
 /*Start Global*/
-/* body {font-family: 'Noto Sans', sans-serif; overflow: hidden} */
+body {font-family: 'Noto Sans', sans-serif; overflow: hidden}
 body.loaded {overflow: auto}
 #carousel-testemonials-generic,
 .contact {background-repeat: no-repeat; background-size: cover}
@@ -26,6 +26,10 @@ body.loaded {overflow: auto}
 .price-table,
 .subscribe,
 .stats {padding: 50px 0}
+.features,
+.price-table,
+.contact,
+.clients {overflow: hidden;}
 /*End Global*/
 
 /* Start Preloader */
@@ -167,6 +171,7 @@ body.loaded {overflow: auto}
     opacity: 0.9;
     margin-right: 2px;
 }
+.option-box .lan-option {margin: 0 0 5px 5px;}
 .option-box .gear {
     position: absolute;
     top: 50%;
@@ -194,7 +199,7 @@ body.loaded {overflow: auto}
 .option-box .font-option ul li.font-two {font-family: 'Roboto', sans-serif;}
 .option-box .font-option ul li.font-three {font-family: 'Lato', sans-serif;}
 .option-box .font-option ul li.font-four {font-family: 'Slabo 27px', sans-serif;}
-.d-caurosel {margin: 10px}
+.d-caurosel {margin: 10px 0 10px 5px}
 .d-caurosel:focus {outline: none;}
 /* End Option Box */
 

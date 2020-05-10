@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>هوستولوجي</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Open+Sans&family=Roboto&family=Slabo+27px&display=swap" rel="stylesheet"> -->   <!-- Changed For Rtl -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Aref+Ruqaa&family=Markazi+Text&family=Scheherazade&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/man.svg" type="image/x-icon"> 
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrapRtl.css">
+    <link rel="stylesheet" href="../css/col-offset-right.css">
+    <link rel="stylesheet" href="../css/hover-min.css">
+    <link rel="stylesheet" href="../css/animate.min.css"/>
+    <link rel="stylesheet" href="../css/Main.css">
+    <link rel="stylesheet" href="css/rtStyle.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/color-one.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- [if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Start Preloader -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Start Option Box -->
+    <section class="option-box">
+        <div class="color-option">
+            <h4>اختيار <span>اللون</span></h4>
+            <ul class="list-unstyled">
+                <li class="color-one" data-theme="color-one"></li>
+                <li class="color-two" data-theme="color-two"></li>
+                <li class="color-three" data-theme="color-three"></li>
+                <li class="color-four" data-theme="color-four"></li>
+            </ul>
+        </div>
+        <div class="font-option">
+            <h4>اختيار <span>الخط</span></h4>
+            <ul class="list-unstyled">
+                <li class="font-one">1</li>
+                <li class="font-two">2</li>
+                <li class="font-three">3</li>
+                <li class="font-four">4</li>
+            </ul>
+        </div>
+        <div class="caurosel-option">
+            <button type="button" class="btn btn-danger hvr-pulse-grow d-caurosel">اخفي الاسليدر</button>
+        </div>
+        <div class="lan-option">
+            <a href="../index.html" class="btn btn-primary hvr-pulse-grow">بدل للانجليزية</a>
+        </div>
+        <div class="gear">
+            <i class="fa fa-cog" aria-hidden="true"></i>
+        </div>
+    </section>
+    <!-- End Option Box -->
+
+    <!-- Start Nav-bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hvr-push" href="#">
+                    هوست<span>ولوجي</span>
+                    <i class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></i>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">الرئيسية</a></li>
+                    <li><a href="#">عنا</a></li>
+                    <li><a href="#">المميزات</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">الخدمات <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">برمجة</a></li>
+                            <li><a href="#">تصميم المواقع</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">الكومبيوتر</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">استضافة المواقع</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">اتصل بنا</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- Start Nav-bar -->
+
+    <!-- Start Caurosal -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators hidden">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="../images/0.jpg" class="img-responsive" alt="...">
+                <div class="overlay">
+                    <div class="carousel-caption">
+                        <h2 class="h1">مرحبا بك في استضافتنا <span>الرائعة</span></h2>
+                        <p class="lead hidden-xs">
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخ
+                        </p>
+                        <button type="button" class="btn btn-danger">قم بتوظيفنا</button>
+                        <button type="button" class="btn btn-danger hidden-xs">اتصل بنا</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/1.jpg" class="img-responsive" alt="...">
+                <div class="overlay">
+                    <div class="carousel-caption">
+                        <h2 class="h1">مبتكرة و<span>بسيطة</span></h2>
+                        <p class="lead hidden-xs">
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخ
+                        </p>
+                        <button type="button" class="btn btn-danger">قم بتوظيفنا</button>
+                        <button type="button" class="btn btn-danger hidden-xs">اتصل بنا</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/2.jpg" class="img-responsive" alt="...">
+                <div class="overlay">
+                    <div class="carousel-caption">
+                        <h2 class="h1">أقل <span>سعر</span></h2>
+                        <p class="lead hidden-xs">
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخ
+                        </p>
+                        <button type="button" class="btn btn-danger">قم بتوظيفنا</button>
+                        <button type="button" class="btn btn-danger hidden-xs">اتصل بنا</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/3.jpg" class="img-responsive" alt="...">
+                <div class="overlay">
+                    <div class="carousel-caption">
+                        <h2 class="h1">اكبر <span>أمان</span></h2>
+                        <p class="lead hidden-xs">
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخ
+                        </p>
+                        <button type="button" class="btn btn-danger">قم بتوظيفنا</button>
+                        <button type="button" class="btn btn-danger hidden-xs">اتصل بنا</button>
+                    </div>
+                </div>
+            </div>
+            ...
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- End Caurosal -->
+
+    <!-- Start About Section -->
+    <section class="about text-center wow animate__bounceInUp" data-wow-duration=".8s">
+        <div class="container">
+            <h1 class="custom-heading">تصميم <span>جديد</span>  </h1>
+            <p class="lead">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخ هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخ</p>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Features Section -->
+    <section class="features text-center">
+        <div class="container">
+            <h2 class="h1 custom-heading">لماذا <span>نحن؟ </span></h2>
+            <div class="row">
+                <div class="feat col-md-3 col-sm-6 hvr-float wow animate__bounceInRight" data-wow-duration="1s">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                    <h3>تصميم انيق</h3>
+                    <p class="lead">
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد ،  
+                    </p>
+                </div>
+                <div class="feat col-md-3 col-sm-6 hvr-float wow animate__bounceInUp" data-wow-duration="1s">
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                    <h3>كود مبتكر</h3>
+                    <p class="lead">
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد ،  
+                    </p>
+                </div>
+                <div class="feat col-md-3 col-sm-6 hvr-float wow animate__bounceInDown" data-wow-duration="1s">
+                    <i class="fa fa-plane" aria-hidden="true"></i>
+                    <h3>سرعة وكفاءة</h3>
+                    <p class="lead">
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد ،  
+                    </p>
+                </div>
+                <div class="feat col-md-3 col-sm-6 hvr-float wow animate__bounceInLeft" data-wow-duration="1s">
+                    <i class="fa fa-tablet" aria-hidden="true"></i>
+                    <h3>متجاوب</h3>
+                    <p class="lead">
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد ،  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Features Section -->
+
+    <!-- Start Testemonials Section -->
+    <section class="testemonials text-center">
+        <h2 class="h1 custom-heading">أراء <span>العملاء</span></h2>
+        <!-- Start Testemonials Caurosal -->
+        <div id="carousel-testemonials-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-testemonials-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-testemonials-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-testemonials-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-testemonials-generic" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="overlay">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active wow animate__bounceInRight" data-wow-duration="1s">
+                        <div class="content">
+                            <div class="avatar">
+                                <img src="../images/testemonials/avatar/avatar-1.svg" width="76" height="76" class="img-responsive" alt="avatar-1">
+                            </div>
+                            <p class="lead">
+                                <span>&#8220;</span> 
+                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص 
+                                <span>&#8221;</span>
+                            </p>
+                            <span class="name">محمد سليم</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <div class="avatar">
+                                <img src="../images/testemonials/avatar/avatar-2.svg" width="76" height="76" class="img-responsive" alt="avatar-2">
+                            </div>
+                            <p class="lead">
+                                <span>&#8220;</span> 
+                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص 
+                                <span>&#8221;</span>
+                            </p>
+                            <span class="name">أحمد صلاح</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <div class="avatar">
+                                <img src="../images/testemonials/avatar/avatar-3.svg" width="76" height="76" class="img-responsive" alt="avatar-3">
+                            </div>
+                            <p class="lead">
+                                <span>&#8220;</span> 
+                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص 
+                                <span>&#8221;</span>
+                            </p>
+                            <span class="name">هاني أسامه</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <div class="avatar">
+                                <img src="../images/testemonials/avatar/avatar-4.svg" width="76" height="76" class="img-responsive" alt="avatar-4">
+                            </div>
+                            <p class="lead">
+                                <span>&#8220;</span> 
+                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص 
+                                <span>&#8221;</span>
+                            </p>
+                            <span class="name">شادي فؤاد</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Testemonials Caurosal -->
+        </div>
+    </section>
+    <!-- End Testemonials Section -->
+
+    <!-- Start Section Price Table -->
+    <section class="price-table text-center">
+        <div class="container">
+            <h2 class="h1 custom-heading">جدول <span>الأسعار</span></h2>
+            <div class="row">
+                <div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="price-box wow animate__bounceInRight" data-wow-duration="1s">
+                            <h3>الخطة المجانيه</h3>
+                            <span class="price center-block">0$</span>
+                            <ul class="advantages list-unstyled">
+                                <li>المساحه : <span>30GB </span></li>
+                                <li>عد الايميلات : <span>20</span></li>
+                                <li>عدد ال IPS : <span>2IP</span></li>
+                                <li>الداتا بيز : <span>10</span></li>
+                                <li>عدد الFTP : <span>5</span></li>
+                            </ul>
+                            <a href="#" class="btn btn-info">احجز الان</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="price-box wow animate__bounceInUp" data-wow-duration="1s">
+                            <h3>الخطة المدفوعه</h3>
+                            <span class="price center-block">40$</span>
+                            <ul class="advantages list-unstyled">
+                                <li>المساحه : <span>60GB </span></li>
+                                <li>عد الايميلات : <span>20</span></li>
+                                <li>عدد ال IPS : <span>2IP</span></li>
+                                <li>الداتا بيز : <span>20</span></li>
+                                <li>عدد الFTP : <span>7</span></li>
+                            </ul>
+                            <a href="#" class="btn btn-info">احجز الان</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="price-box wow animate__bounceInUp" data-wow-duration="1s">
+                            <h3>الخطة المميزة</h3>
+                            <span class="price center-block">60$</span>
+                            <ul class="advantages list-unstyled">
+                                <li>المساحه : <span>100GB </span></li>
+                                <li>عد الايميلات : <span>50</span></li>
+                                <li>عدد ال IPS : <span>5IP</span></li>
+                                <li>الداتا بيز : <span>400</span></li>
+                                <li>عدد الFTP : <span>8</span></li>
+                            </ul>
+                            <a href="#" class="btn btn-info">احجز الان</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="price-box wow animate__bounceInLeft" data-wow-duration="1s">
+                            <h3>الخطة المخصصة</h3>
+                            <span class="price center-block">150$</span>
+                            <ul class="advantages list-unstyled">
+                                <li>المساحه : <span>200GB </span></li>
+                                <li>عد الايميلات : <span>70</span></li>
+                                <li>عدد ال IPS : <span>10IP</span></li>
+                                <li>الداتا بيز : <span>30</span></li>
+                                <li>عدد الFTP : <span>8</span></li>
+                            </ul>
+                            <a href="#" class="btn btn-info">احجز الان</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Price Table -->
+
+    <!-- Start Section Our Team -->
+    <section class="our-team text-center">
+        <video playsinline muted loop autoplay="">
+            <source src="../videoes/1.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <div class="container">
+                <h2 class="h1 custom-heading">فريق <span>العمل</span></h2>
+                <div class="row">
+                    <div class="person col-md-3 col-sm-6 wow animate__bounceIn" data-wow-duration="1s">
+                        <img src="../images/team/1.jpg" alt="1" class="img-circle img-thumbnail" width="176" height="176">
+                        <h3>محمد سليم</h3>
+                        <p>
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك  
+                        </p>
+                        <a href="#" target="_blank"> <i class="fa fa-facebook-f fa-fw team-icon"></i> </a> 
+                        <a href="#" target="_blank"> <i class="fa fa-twitter fa-fw team-icon"></i> </a> 
+                        <a href="#" target="_blank"> <i class="fa fa-github-alt fa-fw team-icon"></i> </a>
+                    </div>
+                    <div class="person col-md-3 col-sm-6 wow animate__bounceIn" data-wow-duration="1s">
+                        <img src="../images/team/2.jpg" alt="1" class="img-circle img-thumbnail" width="176" height="176">
+                        <h3>أحمد هاشم</h3>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك  
+                        </p>
+                        <a href="#" target="_blank"> <i class="fa fa-facebook-f fa-fw team-icon"></i> </a> 
+                        <a href="#" target="_blank"> <i class="fa fa-twitter fa-fw team-icon"></i> </a>
+                        <a href="#" target="_blank"> <i class="fa fa-github-alt fa-fw team-icon"></i> </a>
+                    </div>
+                    <div class="person col-md-3 col-sm-6 wow animate__bounceIn" data-wow-duration="1s">
+                        <img src="../images/team/3.jpg" alt="1" class="img-circle img-thumbnail" width="176" height="176">
+                        <h3>صابر حسني</h3>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك  
+                        </p>
+                        <a href="#" target="_blank"> <i class="fa fa-facebook-f fa-fw team-icon"></i> </a> 
+                        <a href="#" target="_blank"> <i class="fa fa-twitter fa-fw team-icon"></i> </a> 
+                        <a href="#" target="_blank"> <i class="fa fa-github-alt fa-fw team-icon"></i> </a>
+                    </div>
+                    <div class="person col-md-3 col-sm-6 wow animate__bounceIn" data-wow-duration="1s">
+                        <img src="../images/team/4jpg.jpg" alt="1" class="img-circle img-thumbnail" width="176" height="176">
+                        <h3>رائد فؤاد</h3>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك  
+                        </p>
+                        <a href="#" target="_blank"> <i class="fa fa-facebook-f fa-fw team-icon"></i> </a> 
+                        <a href="#" target="_blank"> <i class="fa fa-twitter fa-fw team-icon"></i> </a> 
+                        <a href="#" target="_blank"> <i class="fa fa-github-alt fa-fw team-icon"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Our Team -->
+
+    <!-- Start Section Subscribe -->
+    <section class="subscribe text-center">
+        <div class="container">
+            <h2 class="h1 custom-heading">اشترك في <span>القناة</span></h2>
+            <p class="lead">
+                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، <br> حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخ
+            </p>
+            <form class="form-inline">
+                <input type="email" class="form-control input-lg" placeholder="اكتب الايميل الخاص بك">
+                <button type="submit" class="btn btn-danger btn-lg">
+                    <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+                    اشترك
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- End Section Subscribe -->
+
+    <!-- Start Section Stats -->
+    <section class="stats text-center">
+        <div class="container">
+            <h2 class="h1 custom-heading">احصائيات <span>الموقع</span></h2>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="statics">
+                        <i class="fa fa-users fa-5x"></i>
+                        <span class="number" data-count="5300">0</span>
+                        <span class="title">مجتمعنا</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="statics">
+                        <i class="fa fa-comments fa-5x"></i>
+                        <span class="number" data-count="4500">0</span>
+                        <span class="title">رسائلنا</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="statics">
+                        <i class="fa fa-line-chart fa-5x"></i>
+                        <span class="number" data-count="3200">0</span>
+                        <span class="title">اخر المبيعات</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="statics">
+                        <i class="fa fa-home fa-5x"></i>
+                        <span class="number" data-count="2000">0</span>
+                        <span class="title">فروعنا النشطة</span>            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Stats -->
+
+    <!-- Start Skills Section -->
+    <section class="skills  text-center">
+        <div class="container">
+            <h2 class="h1 custom-heading">مهارات <span>الفريق</span></h2>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 0%" data-progress="80">
+                            <span>80% HTML 5</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 0%" data-progress="70">
+                            <span>70% CSS 3</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%" data-progress="60%">
+                            <span>60% JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 0%" data-progress="65">
+                            <span>65% Jquery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-offset-1">
+                    <div class="skills-info">
+                        <h3>عن الفريق</h3>
+                        <p class="lead">
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخ
+                        </p>
+                        <button class="btn btn-primary">تحدث مع محترف</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start Skills Section -->
+
+    <!-- Start Contact Us Section -->
+    <section class="contact text-center">
+        <div class="overlay">
+            <div class="container">
+                <h2 class="h1 custom-heading">
+                    اتصل
+                    <span>بنا</span> 
+                    <i class="contact-icon fa fa-microphone" aria-hidden="true"></i>
+                </h2>
+                <p class="lead">
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، <br> حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخ
+                </p>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 wow animate__bounceInRight" data-wow-duration="1s">
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" placeholder="اكتب الايميل الخاص بك">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control input-lg" placeholder="ادخل كلمة السر">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" placeholder="ادخل رقم الهاتف">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-md-6 wow animate__bounceInLeft" data-wow-duration="1s">
+                            <div class="form-group">
+                                <textarea class="form-control input-lg" placeholder="اترك رساله"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-danger btn-lg btn-block">أرسل</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Us Section -->
+
+    <!-- Start Our Clients Section -->
+    <div class="clients">
+        <div class="container">
+            <div class="row">
+                <ul class="list-unstyled">
+                    <li class="col-md-2 col-xs-4">
+                        <img class="img-responsive center-block wow animate__bounceIn" data-wow-duration="0.5s" data-wow-delay="0.5s" src="../images/clients/1.png" alt="1" width="126" height="128">
+                    </li>
+                    <li class="col-md-2 col-xs-4">
+                        <img class="img-responsive center-block wow animate__bounceIn" data-wow-duration="0.5s" data-wow-delay="1s" src="../images/clients/2.png" alt="2" width="126" height="128">
+                    </li>
+                    <li class="col-md-2 col-xs-4">
+                        <img class="img-responsive center-block wow animate__bounceIn" data-wow-duration="0.5s" data-wow-delay="1.5s" src="../images/clients/3.png" alt="3" width="126" height="128">
+                    </li>
+                    <li class="col-md-2 col-xs-4">
+                        <img class="img-responsive center-block wow animate__bounceIn" data-wow-duration="0.5s" data-wow-delay="2s" src="../images/clients/4.png" alt="4" width="126" height="128">
+                    </li>
+                    <li class="col-md-2 col-xs-4">
+                        <img class="img-responsive center-block wow animate__bounceIn" data-wow-duration="0.5s" data-wow-delay="2.5s" src="../images/clients/5.png" alt="5" width="126" height="128">
+                    </li>
+                    <li class="col-md-2 col-xs-4">
+                        <img class="img-responsive center-block wow animate__bounceIn" data-wow-duration="0.5s" data-wow-delay="3s" src="../images/clients/6.png" alt="6" width="126" height="128">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Our Clients Section -->
+
+    <!-- Start Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <h3 class="h2">خريطة الموقع</h3>
+                    <ul class="sitemap list-unstyled">
+                        <li>الرئيسية</li>
+                        <li>عنا</li>
+                        <li>الخدمات</li>
+                        <li>اسألنا</li>
+                        <li>المميزات</li>
+                        <li>اتصل بنا</li>
+                        <li>التصاميم</li>
+                        <li>الاعضاء</li>
+                        <li>العملاء</li>
+                    </ul>
+                    <ul class="social list-unstyled">
+                        <li>
+                            <a href="#">
+                                <img src="../images/footer-social/fp.svg" alt="fb" class="img-responsive">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/footer-social/twitter.svg" alt="fb" class="img-responsive">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/footer-social/ytp.svg" alt="fb" class="img-responsive">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/footer-social/instagram.svg" alt="fb" class="img-responsive">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/footer-social/linkidin.svg" alt="fb" class="img-responsive">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/footer-social/github.svg" alt="fb" class="img-responsive">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h3 class="h2">اخر المقالات</h3>
+                    <!-- Note Media -->
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img src="../images/footer-articles/1.jpg" alt="2" class="img-responsive media-object">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4>برمجة</h4>
+                            <p>
+                                
+                        هذا النص هو مثال لنص يمكن أن يستبدل في <br> المساحة، لقد تم توليد هذا النص من مولد
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img src="../images/footer-articles/2.jpg" alt="2" class="img-responsive media-object">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4>كود</h4>
+                            <p>
+                                
+                        هذا النص هو مثال لنص يمكن أن يستبدل في <br> المساحة، لقد تم توليد هذا النص من مولد
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img src="../images/footer-articles/3.jpg" alt="3" class="img-responsive media-object">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4>كومبيوتر</h4>
+                            <p>
+                                
+                        هذا النص هو مثال لنص يمكن أن يستبدل في <br> المساحة، لقد تم توليد هذا النص من مولد
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <h3 class="h2">أعمالنا</h3>
+                    <div class="works">
+                        <a href="#">
+                            <img src="../images/footer-works/1.jpg" alt="1" class="responsive-img img-thumbnail">
+                        </a>
+                        <a href="#">
+                            <img src="../images/footer-works/2.jpg" alt="2" class="responsive-img img-thumbnail">
+                        </a>
+                        <a href="#">
+                            <img src="../images/footer-works/3.jpg" alt="3" class="responsive-img img-thumbnail">
+                        </a>
+                        <a href="#">
+                            <img src="../images/footer-works/4.jpg" alt="4" class="responsive-img img-thumbnail">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy text-center">
+            حميع حقوق النشر محفوظة &copy; 2020 <a href="https://www.facebook.com/mseelem" target="_blank">
+                محمد سليم
+                <i class="fa fa-facebook"></i>
+            </a>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+    <!-- Scroll To Top -->
+    <div class="scroll-top">
+        <i class="fa fa-fighter-jet fa-2x" aria-hidden="true"></i>
+        <img src="../images/122-1223559_flames-clipart-revival-transparent-background-fire-png.png" alt="fire">
+    </div>
+    <!-- Scroll To Top -->
+
+    <!-- Audio -->
+    <audio loop autoplay="">
+        <source src="s.mp3" type="audio/mp3">
+            sorry
+    </audio>
+    <!-- Audio -->
+
+    <!--Start Scripts-->
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        //Trigger WowJs
+        wow = new WOW({
+                boxClass:     'wow',      // default
+                animateClass: 'animated', // default
+                offset:       150,          // default
+                mobile:       true,       // default
+                live:         true        // default
+            });
+        wow.init();
+    </script>
+    <!--End Scripts-->
+
+</body>
+
+</html>
