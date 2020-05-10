@@ -2,7 +2,6 @@
 body {font-family: 'Noto Sans', sans-serif; overflow: hidden}
 body.loaded {overflow: auto}
 #carousel-testemonials-generic,
-.our-team,
 .contact {background-repeat: no-repeat; background-size: cover}
 .stats .statics .number,
 .navbar-inverse .navbar-brand,
@@ -335,11 +334,23 @@ body.loaded {overflow: auto}
 
 /* Start Section Our Team */
 .our-team {
-    background-image: url(../images/team/background.gif);
-    background-position: bottom;
     position: relative;
 }
-.our-team .overlay {padding-top: 50px; position: static;}
+.our-team video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+        object-fit: cover;
+    -o-object-position: bottom;
+        object-position: bottom;
+    z-index: -1;
+}
+.our-team .overlay {padding-top: 50px; position: static; z-index: 2;}
 .our-team .h1 {color: #eee; margin-bottom: 70px;}
 .our-team .person  {margin-bottom: 50px}
 .our-team .person img {
