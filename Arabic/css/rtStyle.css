@@ -1,6 +1,12 @@
 /*Start Global*/
 body {font-family:'Amiri', serif;}
 
+.price-table .price-box .advantages li {text-align: right; padding-left: none; padding-right: 10px}
+.price-table .price-box .advantages li span {
+    float: left;
+    margin-right: none;
+    margin-left: 10px;
+}
 .option-box .font-option ul li.font-one {font-family:  'Amiri', serif;}
 .option-box .font-option ul li.font-two {font-family: 'Aref Ruqaa', serif;}
 .option-box .font-option ul li.font-three {font-family: 'Markazi Text', serif;}
