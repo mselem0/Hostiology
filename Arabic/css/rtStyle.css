@@ -1,0 +1,23 @@
+/*Start Global*/
+body {font-family:'Amiri', serif;}
+
+.option-box .font-option ul li.font-one {font-family:  'Amiri', serif;}
+.option-box .font-option ul li.font-two {font-family: 'Aref Ruqaa', serif;}
+.option-box .font-option ul li.font-three {font-family: 'Markazi Text', serif;}
+.option-box .font-option ul li.font-four {font-family: 'Scheherazade', serif;}
+.skills .progress .progress-bar {text-align: right;}
+.subscribe .btn {margin-right: -5px; border-radius: 4px 0 0 0;}
+#carousel-example-generic .carousel-caption button:last-of-type {margin-right: 20px}
+.option-box {
+    right: -180px;
+    left: unset;
+    border-radius: 3px 0 0 3px;
+}
+.option-box.active {right: 0}
+.option-box .gear {
+    left: -30px;
+    right: unset;
+    line-height: 38px;
+}
+.option-box .font-option li:nth-child(2) {line-height: 17px;}
+.scroll-top {right: unset; left: 15px}
