@@ -12,8 +12,11 @@
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav >.open> a,
+.navbar-inverse .navbar-nav >.open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus ,
-.features .feat .feat-icon ,
+.features .feat i ,
 #carousel-example-generic .carousel-caption button,
 .navbar-inverse .navbar-nav > .open > a:focus {background-color: #f3c623}
