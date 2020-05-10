@@ -5,14 +5,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hostiology</title>
+    <title>Learn Bootsrtap[ 3 ]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Open+Sans&family=Roboto&family=Slabo+27px&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/man.svg" type="image/x-icon"> 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/rtl.css">
     <link rel="stylesheet" href="css/col-offset-right.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Open+Sans&family=Roboto&family=Slabo+27px&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/animate.min.css"/>
     <link rel="stylesheet" href="css/Main.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/color-one.css">
@@ -27,12 +28,12 @@
 <body>
 
     <!-- Start Preloader -->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="spinner">
             <div class="cube1"></div>
             <div class="cube2"></div>
         </div>
-    </div>
+    </div> -->
     <!-- End Preloader -->
 
     <!-- Start Option Box -->
@@ -76,7 +77,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand hvr-push" href="#">Hosti<span>ology.</span></a>
+                <a class="navbar-brand hvr-push" href="#">
+                    Hosti<span>ology</span>
+                    <i class="glyphicon glyphicon-hdd" aria-hidden="true" style="color: #7ebdb4;"></i>
+                </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -174,7 +178,7 @@
     <!-- End Caurosal -->
 
     <!-- Start About Section -->
-    <section class="about text-center">
+    <section class="about text-center wow animate__bounceInUp" data-wow-duration=".8s">
         <div class="container">
             <h1 class="custom-heading"><span>New</span> Bootstrap</h1>
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore exercitationem repellat tempora unde voluptas voluptates eius earum perferendis quod quisquam.</p>
@@ -187,22 +191,22 @@
         <div class="container">
             <h2 class="h1 custom-heading"><span>Our</span> Features</h2>
             <div class="row">
-                <div class="feat col-md-3 col-sm-6 hvr-grow">
+                <div class="feat col-md-3 col-sm-6 hvr-float wow animate__bounceInLeft" data-wow-duration="1s">
                     <i class="fa fa-heart" aria-hidden="true"></i>
                     <h3>Lovely Design</h3>
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="feat col-md-3 col-sm-6 hvr-buzz">
+                <div class="feat col-md-3 col-sm-6 hvr-float wow animate__bounceInUp" data-wow-duration="1s">
                     <i class="fa fa-diamond" aria-hidden="true"></i>
                     <h3>Creative Code</h3>
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="feat col-md-3 col-sm-6 hvr-float">
+                <div class="feat col-md-3 col-sm-6 hvr-float wow animate__bounceInDown" data-wow-duration="1s">
                     <i class="fa fa-plane" aria-hidden="true"></i>
                     <h3>Speed Performance</h3>
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="feat col-md-3 col-sm-6 hvr-wobble-vertical">
+                <div class="feat col-md-3 col-sm-6 hvr-float wow animate__bounceInRight" data-wow-duration="1s">
                     <i class="fa fa-tablet" aria-hidden="true"></i>
                     <h3>All Responisve</h3>
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -227,7 +231,7 @@
             <!-- Wrapper for slides -->
             <div class="overlay">
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active">
+                    <div class="item active wow animate__bounceInRight" data-wow-duration="1s">
                         <div class="content">
                             <div class="avatar">
                                 <img src="images/testemonials/avatar/avatar-1.svg" width="76" height="76" class="img-responsive" alt="avatar-1">
@@ -293,7 +297,7 @@
             <div class="row">
                 <div>
                     <div class="col-sm-6 col-md-3">
-                        <div class="price-box">
+                        <div class="price-box wow animate__bounceInLeft" data-wow-duration="1s">
                             <h3>Simple</h3>
                             <span class="price center-block">40$</span>
                             <ul class="advantages list-unstyled">
@@ -307,7 +311,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
-                        <div class="price-box">
+                        <div class="price-box wow animate__bounceInUp" data-wow-duration="1s">
                             <h3>High</h3>
                             <span class="price center-block">60$</span>
                             <ul class="advantages list-unstyled">
@@ -321,7 +325,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
-                        <div class="price-box">
+                        <div class="price-box wow animate__bounceInUp" data-wow-duration="1s">
                             <h3>VIP</h3>
                             <span class="price center-block">80$</span>
                             <ul class="advantages list-unstyled">
@@ -335,7 +339,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
-                        <div class="price-box">
+                        <div class="price-box wow animate__bounceInRight" data-wow-duration="1s">
                             <h3>Speical</h3>
                             <span class="price center-block">120$</span>
                             <ul class="advantages list-unstyled">
@@ -357,13 +361,13 @@
     <!-- Start Section Our Team -->
     <section class="our-team text-center">
         <video playsinline muted loop autoplay="">
-            <source src="videoes/1025052575-preview.mp4" type="video/mp4">
+            <source src="videoes/1.mp4" type="video/mp4">
         </video>
         <div class="overlay">
             <div class="container">
                 <h2 class="h1 custom-heading"><span>Our</span> Awesoms</h2>
                 <div class="row">
-                    <div class="person col-md-3 col-sm-6">
+                    <div class="person col-md-3 col-sm-6 wow animate__bounceIn" data-wow-duration="1s">
                         <img src="images/team/1.jpg" alt="1" class="img-circle img-thumbnail" width="176" height="176">
                         <h3>Chris Coyier</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque expedita labore provident earum sed!</p>
@@ -371,7 +375,7 @@
                         <a href="#" target="_blank"> <i class="fa fa-twitter fa-fw team-icon"></i> </a> 
                         <a href="#" target="_blank"> <i class="fa fa-github-alt fa-fw team-icon"></i> </a>
                     </div>
-                    <div class="person col-md-3 col-sm-6">
+                    <div class="person col-md-3 col-sm-6 wow animate__bounceIn" data-wow-duration="1s">
                         <img src="images/team/2.jpg" alt="1" class="img-circle img-thumbnail" width="176" height="176">
                         <h3>Dan Vasilla</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque expedita labore provident earum sed!</p>
@@ -379,7 +383,7 @@
                         <a href="#" target="_blank"> <i class="fa fa-twitter fa-fw team-icon"></i> </a>
                         <a href="#" target="_blank"> <i class="fa fa-github-alt fa-fw team-icon"></i> </a>
                     </div>
-                    <div class="person col-md-3 col-sm-6">
+                    <div class="person col-md-3 col-sm-6 wow animate__bounceIn" data-wow-duration="1s">
                         <img src="images/team/3.jpg" alt="1" class="img-circle img-thumbnail" width="176" height="176">
                         <h3>John Mosa</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque expedita labore provident earum sed!</p>
@@ -387,7 +391,7 @@
                         <a href="#" target="_blank"> <i class="fa fa-twitter fa-fw team-icon"></i> </a> 
                         <a href="#" target="_blank"> <i class="fa fa-github-alt fa-fw team-icon"></i> </a>
                     </div>
-                    <div class="person col-md-3 col-sm-6">
+                    <div class="person col-md-3 col-sm-6 wow animate__bounceIn" data-wow-duration="1s">
                         <img src="images/team/4jpg.jpg" alt="1" class="img-circle img-thumbnail" width="176" height="176">
                         <h3>Rohan Raad</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque expedita labore provident earum sed!</p>
@@ -409,7 +413,7 @@
             <form class="form-inline">
                 <input type="email" class="form-control input-lg" placeholder="Write Your Email">
                 <button type="submit" class="btn btn-danger btn-lg">
-                    <i class="fas fa-edit fa-lg"></i>
+                    <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
                     Subscribe
                 </button>
             </form>
@@ -682,10 +686,29 @@
     </div>
     <!-- Scroll To Top -->
 
+    <!-- Audio -->
+    <audio loop autoplay="">
+        <source src="s.mp3" type="audio/mp3">
+            sorry
+    </audio>
+    <!-- Audio -->
+
     <!--Start Scripts-->
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        //Trigger WowJs
+        wow = new WOW({
+                boxClass:     'wow',      // default
+                animateClass: 'animated', // default
+                offset:       150,          // default
+                mobile:       true,       // default
+                live:         true        // default
+            });
+        wow.init();
+    </script>
     <!--End Scripts-->
 
 </body>

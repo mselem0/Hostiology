@@ -76,6 +76,8 @@ $(document).ready(function () {
         $(this).children('img').show();
     });
 
+    console.log($('.about').offset().top);
+
 });
 
 //Trigger Preloader
