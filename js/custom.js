@@ -7,10 +7,16 @@ $(document).ready(function () {
         $(this).children('.fa-cog').toggleClass('fa-spin');
     });
     $('.option-box .color-option ul li').on('click', function () {
-        $('link[href*="color"]').attr('href', 'css/' + $(this).data('theme') + '.css');
+        let colorStyle = $('link[href*="color"]');
+        console.log(colorStyle.attr('href'));
+        if (colorStyle.attr('href').indexOf('../') > -1) {      //For Rtl
+            $('link[href*="color"]').attr('href', '../css/' + $(this).data('theme') + '.css');
+        } else {
+            $('link[href*="color"]').attr('href', 'css/' + $(this).data('theme') + '.css');
+        }
     });
     $('.font-option ul li').on('click', function () {
-        $('body').css('font-family', $(this).css('font-family'));
+        $('body').css('font-family', $(this).data('font-family'));
     });
     $('.option-box .caurosel-option .d-caurosel').on('click', function () {
         $('#carousel-example-generic').toggle();
@@ -80,6 +86,13 @@ $(document).ready(function () {
 
 });
 
+//Animation For Info Messages
+$('.message').fadeIn(1, function () {
+    $(this).addClass('opened');
+});
+$('.message').on('click', function () {
+    $(this).removeClass('opened');
+});
 //Trigger Preloader
 $(window).on('load', function () {
     $('.preloader').fadeOut(1000, function () {

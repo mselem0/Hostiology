@@ -32,6 +32,41 @@ body.loaded {overflow: auto}
 .clients {overflow: hidden;}
 /*End Global*/
 
+/* Start Alert Messages */
+.message {
+    position: fixed;
+    top: 100px;
+    right: -100%;
+    z-index: 99999999999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 3px;
+    line-height:30px;
+    padding: 12px;
+    color: #EEE;
+    box-shadow: 0px 10px 50px rgba(0,0,0,.6);
+    background:#34495e;
+    transition: 1.5s cubic-bezier(.25,.75,.5,1.25);
+}
+.message.opened {right: 0}
+.message .fa{
+    line-height:30px;
+    font-size:30px;
+    display:inline-bloxk;
+    width:35px;
+    height:35px;
+}
+.message .close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer; cursor: hand;
+}
+/* End Alert Messages */
+
 /* Start Preloader */
 .preloader {
     position: fixed;
@@ -188,17 +223,13 @@ body.loaded {overflow: auto}
     font-size: 20px;
 }
 .option-box .color-option,
-.option-box .font-option {border-bottom: 1px solid #fa744f}
+.option-box .font-option {border-bottom: 1px solid #858585}
 .option-box .color-option ul li.color-one {background-color: #7ebdb4;}
 .option-box .color-option ul li.color-two {background-color: #eb6383;}
 .option-box .color-option ul li.color-three {background-color: #f40552;}
 .option-box .color-option ul li.color-four {background-color: #f3c623;}
 .option-box .color-option ul li:hover {opacity: 1;}
 .option-box .font-option ul li {background-color: #16817a; font-size: 12px;}
-.option-box .font-option ul li.font-one {font-family: 'Noto Sans', sans-serif;}
-.option-box .font-option ul li.font-two {font-family: 'Roboto', sans-serif;}
-.option-box .font-option ul li.font-three {font-family: 'Lato', sans-serif;}
-.option-box .font-option ul li.font-four {font-family: 'Slabo 27px', sans-serif;}
 .d-caurosel {margin: 10px 0 10px 5px}
 .d-caurosel:focus {outline: none;}
 /* End Option Box */
