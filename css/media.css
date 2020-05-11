@@ -24,3 +24,12 @@
     #carousel-testemonials-generic .carousel-inner .item .content {width: 62%; margin: 40px auto}
     .footer .social {width: 86%}
 }
+
+/*About Us Section*/
+@media (min-width: 767px) and (max-width: 991px) {
+    .about-ceo img {
+        position: absolute;
+        top: 191px;
+        left: 0;
+    }
+}

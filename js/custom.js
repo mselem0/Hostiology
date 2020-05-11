@@ -81,9 +81,6 @@ $(document).ready(function () {
         }, 1300)
         $(this).children('img').show();
     });
-
-    console.log($('.about').offset().top);
-
 });
 
 //Animation For Info Messages
