@@ -36,7 +36,7 @@ body.loaded {overflow: auto}
 .message {
     position: fixed;
     top: 100px;
-    right: -100%;
+    right: -150%;
     z-index: 99999999999999;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
