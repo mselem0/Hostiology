@@ -10,9 +10,9 @@ $(document).ready(function () {
         let colorStyle = $('link[href*="color"]');
         console.log(colorStyle.attr('href'));
         if (colorStyle.attr('href').indexOf('../') > -1) {      //For Rtl
-            $('link[href*="color"]').attr('href', '../css/' + $(this).data('theme') + '.css');
+            $('link[href*="color"]').attr('href', '../css/' + $(this).data('theme') + '.min.css');
         } else {
-            $('link[href*="color"]').attr('href', 'css/' + $(this).data('theme') + '.css');
+            $('link[href*="color"]').attr('href', 'css/' + $(this).data('theme') + '.min.css');
         }
     });
     $('.font-option ul li').on('click', function () {
