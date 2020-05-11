@@ -24,7 +24,7 @@ body {font-family:'Amiri', serif;}
 .option-box .gear {
     left: -30px;
     right: unset;
-    line-height: 33px;
+    line-height: 30px;
 }
 .option-box .font-option li:nth-child(2) {line-height: 17px;}
 .scroll-top {right: unset; left: 15px}
