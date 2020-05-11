@@ -8,7 +8,7 @@
     <title>هوستيولوجي</title>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Open+Sans&family=Roboto&family=Slabo+27px&display=swap" rel="stylesheet"> -->   <!-- Changed For Rtl -->
     <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Aref+Ruqaa&family=Markazi+Text&family=Scheherazade&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../images/man.svg" type="image/x-icon"> 
+    <link rel="shortcut icon" href="../images/fav-icon.svg" type="image/x-icon"> 
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrapRtl.css">
@@ -28,6 +28,14 @@
 </head>
 
 <body>
+
+    <!-- Start Info Messages -->
+    <div class="message">
+        <strong> <i class="fa fa-heart"></i> انتبه..!</strong> <br>
+        هل تعلم أن بامكانك تغيير (اللون, الخط, اللغة) من أيقونة الترس !! ...
+        <span class="close">×</button>
+    </div>       
+    <!-- End Info Messages -->
 
     <!-- Start Preloader -->
     <div class="preloader">
@@ -52,10 +60,10 @@
         <div class="font-option">
             <h4>اختيار <span>الخط</span></h4>
             <ul class="list-unstyled">
-                <li class="font-one">1</li>
-                <li class="font-two">2</li>
-                <li class="font-three">3</li>
-                <li class="font-four">4</li>
+                <li class="font-one" data-font-family="'Amiri', serif">١</li>
+                <li class="font-two" data-font-family="'Aref Ruqaa', serif">٢</li>
+                <li class="font-three" data-font-family="'Markazi Text', serif">٣</li>
+                <li class="font-four" data-font-family="'Scheherazade', serif">٤</li>
             </ul>
         </div>
         <div class="caurosel-option">
@@ -250,7 +258,7 @@
             <!-- Wrapper for slides -->
             <div class="overlay">
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active wow animate__bounceInRight" data-wow-duration="1s">
+                    <div class="item active wow animate__bounceInLeft" data-wow-duration="1s">
                         <div class="content">
                             <div class="avatar">
                                 <img src="../images/testemonials/avatar/avatar-1.svg" width="76" height="76" class="img-responsive" alt="avatar-1">
