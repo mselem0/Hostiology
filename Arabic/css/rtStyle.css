@@ -2,7 +2,7 @@
 body {font-family:'Amiri', serif;}
 
 .message {
-    left: -100%;
+    left: -150%;
     right: unset;
 }
 .message.opened {left: 0 !important; right: unset;}
