@@ -2,7 +2,7 @@
 body {font-family:'Amiri', serif;}
 
 .message {
-    left: -150%;
+    left: -100%;
     right: unset;
 }
 .message.opened {left: 0 !important; right: unset;}
@@ -24,7 +24,13 @@ body {font-family:'Amiri', serif;}
 .option-box .gear {
     left: -30px;
     right: unset;
-    line-height: 38px;
+    line-height: 33px;
 }
 .option-box .font-option li:nth-child(2) {line-height: 17px;}
 .scroll-top {right: unset; left: 15px}
+
+/*About Rtl & Faq Rtl*/
+.about-us h1,
+.about-ceo .h1,
+.faq .faq-intro h1 {font-family: 'Amiri', serif; letter-spacing: 0;}
+.faq .faq-accordion .panel-heading a::after {float: left}

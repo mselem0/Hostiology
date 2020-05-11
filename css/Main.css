@@ -1,5 +1,5 @@
 /*Start Global*/
-body {font-family: 'Noto Sans', sans-serif; overflow: hidden}
+body {font-family: 'Noto Sans', sans-serif; overflow: hidden; padding-top: 71px}
 body.loaded {overflow: auto}
 #carousel-testemonials-generic,
 .contact {background-repeat: no-repeat; background-size: cover}
@@ -36,7 +36,7 @@ body.loaded {overflow: auto}
 .message {
     position: fixed;
     top: 100px;
-    right: -150%;
+    right: -100%;
     z-index: 99999999999999;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -206,7 +206,7 @@ body.loaded {overflow: auto}
     opacity: 0.9;
     margin-right: 2px;
 }
-.option-box .lan-option {margin: 0 0 5px 5px;}
+.option-box .lan-option {margin: 5px 0 5px 5px;}
 .option-box .gear {
     position: absolute;
     top: 50%;
@@ -230,7 +230,7 @@ body.loaded {overflow: auto}
 .option-box .color-option ul li.color-four {background-color: #f3c623;}
 .option-box .color-option ul li:hover {opacity: 1;}
 .option-box .font-option ul li {background-color: #16817a; font-size: 12px;}
-.d-caurosel {margin: 10px 0 10px 5px}
+.d-caurosel {margin: 10px 0 0 5px}
 .d-caurosel:focus {outline: none;}
 /* End Option Box */
 
