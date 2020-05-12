@@ -84,12 +84,16 @@ $(document).ready(function () {
 });
 
 //Animation For Info Messages
-$('.message').fadeIn(1, function () {
+let ourMessage = $('.message');
+ourMessage.fadeIn(1, function () {
     $(this).addClass('opened');
 });
-$('.message').on('click', function () {
+ourMessage.on('click', function () {
     $(this).removeClass('opened');
 });
+let messageFade = setTimeout(function () {
+    ourMessage.removeClass('opened');
+}, 6000);
 //Trigger Preloader
 $(window).on('load', function () {
     $('.preloader').fadeOut(1000, function () {
